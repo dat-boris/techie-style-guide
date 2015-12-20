@@ -5,6 +5,11 @@ techie.im Style Guide
 A Repo for documenting the style that we are using for http://techie.im and related
 projects.
 
+## Demo
+
+http://sketchytechky.github.io/techie-style-guide/
+
+
 ## Zen of the style
 
     Always have contrast and depth.
