@@ -1,0 +1,86 @@
+@import url(//fonts.googleapis.com/css?family=Karla:700,400);
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+}
+body,
+html {
+  margin: 0;
+  padding: 5%;
+/*  height: 100%;
+*/}
+body {
+  font-family: Karla, Helvetica, sans-serif;
+  letter-spacing: 0.02em;
+  font-size: 18px;
+  line-height: 2.0em;
+  color: rgba(100, 100, 100, 0.48);
+}
+
+/**
+ * Text decoration
+ */
+
+h1, h2 {
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+h1 { 
+  color: rgba(100, 100, 100, 0.48);
+}
+
+h2 {
+  color: rgba(100, 100, 100, 0.58);
+}
+
+p {
+  color: rgba(100, 100, 100, 0.48);
+}
+
+p b {
+  color: #8483C1;
+}
+
+a {
+  color: #8483C1;
+  text-decoration: none;
+  -webkit-transition: border-color 0.15s;
+  -moz-transition: border-color 0.15s;
+  -ms-transition: border-color 0.15s;
+  -o-transition: border-color 0.15s;
+  transition: border-color 0.15s;
+}
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/**
+ * Input box decoration
+ */
+input {
+    height:70px;
+    font-size:24pt;
+    padding: 10px;
+    color: #888888;
+
+    border: 1px solid #cccccc;
+    box-shadow: 0 0 10px #cccccc;
+
+    -moz-border-radius:10px; /* Firefox */
+    -webkit-border-radius: 10px; /* Safari, Chrome */
+    -khtml-border-radius: 10px; /* KHTML */
+    border-radius: 10px; /* CSS3 */    
+}
+
+::-webkit-input-placeholder {
+     color: #cccccc;
+}
+
+
